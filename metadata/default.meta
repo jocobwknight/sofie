@@ -1,0 +1,33 @@
+# shared Application-level permissions
+[]
+access = read : [ * ], write : [ admin ]
+export = system
+######################################################
+#
+# sofie
+#
+######################################################
+
+# Application-level permissions
+
+[]
+access = read : [ * ], write : [ admin ]
+export = system
+
+[views/setup]
+export = none
+
+### COMMANDS
+
+[commands]
+export = system
+
+[searchbnf]
+export = system
+
+# Documentation Views
+[html/docs_nobody_command]
+access = read : [ * ], write : [ admin, power ]
+owner = nobody
+version = 8.0.5
+modtime = 946684800.0
