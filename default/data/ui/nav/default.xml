@@ -1,0 +1,9 @@
+<nav search_view="search" color="#28D773">
+    <view name="search" default="true" />
+    <a href="/app/sofie/search?earliest=-30d%40d&amp;latest=now&amp;q=search%20index%3D_internal%20sofie&amp;display.page.search.mode=smart&amp;dispatch.sample_ratio=1">Logs</a>
+    <collection label="Documentation">
+        <collection label="Search Commands">
+            <a href="docs_nothing_command">nothing</a>
+        </collection>
+    </collection>
+</nav>
